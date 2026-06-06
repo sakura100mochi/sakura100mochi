@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Generate 3D Contribution Graph
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           # プライベートリポジトリを含める場合はPERSONAL_ACCESS_TOKENを使用
