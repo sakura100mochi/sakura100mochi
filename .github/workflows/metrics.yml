@@ -28,7 +28,7 @@ jobs:
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 8
-          plugin_languages_colors: C:#d65971, Java:#52828f, C++:#e3b248
+          plugin_languages_colors: C:#d65971, Java:#52828f, C++:#e3b248, Luau:#B5E3EE
       - name: Full-year calendar
         uses: lowlighter/metrics@latest
         with:
