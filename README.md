@@ -10,8 +10,10 @@
 # 🎟 Entrance Gate
 I'm Yuina Hirai.
 
-![basic information](./assets/metrics/base.svg)
-![calender](./assets/metrics/isocalendar.fullyear.svg)
+<p align="center">
+  <img src="./assets/metrics/base.svg" width="45%">
+  <img src="./assets/metrics/isocalendar.fullyear.svg" width="45%">
+</p>
 
 # 🎪 Project Gallery
 
