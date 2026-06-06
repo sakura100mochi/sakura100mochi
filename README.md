@@ -23,6 +23,9 @@ I'm Yuina Hirai.
 
 
 # 🍿 Contact Booth
+<a href="mailto:yuina97102@gmail.com">
+  <img src="https://cdn-icons-png.flaticon.com/512/18154/18154191.png" width="40" alt="Email">
+</a>
 
 # 🎈 Visitors
 ![followers](./assets/metrics/people.followers.svg)
