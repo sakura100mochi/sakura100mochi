@@ -18,7 +18,7 @@ jobs:
         with:
           filename: assets/metrics/base.svg
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          base: header, activity, community, repositories, metadata
+          base: header, activity, community, repositories
       - name: Most used
         uses: lowlighter/metrics@latest
         with:
@@ -28,32 +28,15 @@ jobs:
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 8
-      - name: Compact display
+          plugin_languages_colors: C:#d65971, Java:#52828f, C++:#e3b248
+      - name: Full-year calendar
         uses: lowlighter/metrics@latest
         with:
-          filename: assets/metrics/achievements.compact.svg
+          filename: assets/metrics/isocalendar.fullyear.svg
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           base: ""
-          plugin_achievements: yes
-          plugin_achievements_secrets: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: X
-      - name: GitHub City
-        uses: lowlighter/metrics@latest
-        with:
-          filename: assets/metrics/skyline.city.svg
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          base: ""
-          plugin_skyline: yes
-          plugin_skyline_frames: 6
-          plugin_skyline_quality: 1
-          plugin_skyline_settings: |
-            {
-              "url": "https://honzaap.github.io/GithubCity?name=${login}&year=${year}",
-              "ready": "[...document.querySelectorAll('.display-info span')].map(span => span.innerText).includes('${login}')",
-              "wait": 4,
-              "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
-            }
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
       - name: Followers
         uses: lowlighter/metrics@latest
         with:
