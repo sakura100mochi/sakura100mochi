@@ -13,45 +13,52 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate Metrics
+      - name: Default metrics
         uses: lowlighter/metrics@latest
         with:
-          filename: assets/output/metrics.svg
+          filename: assets/metrics/base.svg
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          base: ""
-          plugin_followup: yes
-          plugin_followup_indepth: yes
-      - name: Half-year calendar
-        uses: lowlighter/metrics@latest
-        with:
-          filename: assets/metrics/metrics.plugin.isocalendar.svg
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          base: ""
-          plugin_isocalendar: yes
+          base: header, activity, community, repositories, metadata
       - name: Most used
         uses: lowlighter/metrics@latest
         with:
-          filename: assets/metrics/metrics.plugin.languages.svg
+          filename: assets/metrics/languages.svg
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           base: ""
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 10
-      - name: Icons
-        uses: lowlighter/metrics@latest
-        with:
-          filename: assets/metrics/metrics.plugin.topics.icons.svg
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          base: ""
-          plugin_topics: yes
-          plugin_topics_mode: icons
+          plugin_languages_limit: 8
       - name: Compact display
         uses: lowlighter/metrics@latest
         with:
-          filename: assets/metrics/metrics.plugin.achievements.compact.svg
+          filename: assets/metrics/achievements.compact.svg
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           base: ""
           plugin_achievements: yes
           plugin_achievements_secrets: yes
           plugin_achievements_display: compact
           plugin_achievements_threshold: X
+      - name: GitHub City
+        uses: lowlighter/metrics@latest
+        with:
+          filename: assets/metrics/skyline.city.svg
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          base: ""
+          plugin_skyline: yes
+          plugin_skyline_frames: 6
+          plugin_skyline_quality: 1
+          plugin_skyline_settings: |
+            {
+              "url": "https://honzaap.github.io/GithubCity?name=${login}&year=${year}",
+              "ready": "[...document.querySelectorAll('.display-info span')].map(span => span.innerText).includes('${login}')",
+              "wait": 4,
+              "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
+            }
+      - name: Followers
+        uses: lowlighter/metrics@latest
+        with:
+          filename: assets/metrics/people.followers.svg
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          base: ""
+          plugin_people: yes
+          plugin_people_types: followers
