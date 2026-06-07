@@ -44,3 +44,12 @@ This is a Pong game on the web.
 <img src="https://img.shields.io/badge/-Debian-A81D33.svg?logo=debian&style=flat">
 <img src="https://img.shields.io/badge/-Docker-EEE.svg?logo=docker&style=flat">
 </details>
+
+<details>
+<summary>so_long</summary>
+This is a 2D maze game.
+<p align="center">
+  <img src="./assets/so_long.gif" width="50%">
+</p>
+Skills: C, MiniLibX
+</details>
