@@ -31,25 +31,23 @@
 
 <details>
 <summary>ft_transcendance</summary>
-This is a Pong game on the web.
+
+> This is a Pong game on the web.
+>
+> Skills:
+> <img src="https://img.shields.io/badge/Javascript-276DC3.svg?logo=javascript&style=flat"><img src="https://img.shields.io/badge/-TypeScript-007ACC.svg?logo=typescript&style=flat"><img src="https://img.shields.io/badge/-TailWindCSS-1572B6.svg?logo=css3&style=flat"><img src="https://img.shields.io/badge/-HTML-333.svg?logo=html5&style=flat"><img src="https://img.shields.io/badge/-React-555.svg?logo=react&style=flat"><img src="https://img.shields.io/badge/-Bootstrap-563D7C.svg?logo=bootstrap&style=flat"><img src="https://img.shields.io/badge/-Debian-A81D33.svg?logo=debian&style=flat"><img src="https://img.shields.io/badge/-Docker-EEE.svg?logo=docker&style=flat">
 <p align="center">
   <img src="./assets/ft_transcendance.gif" width="50%">
 </p>
-<img src="https://img.shields.io/badge/Javascript-276DC3.svg?logo=javascript&style=flat">
-<img src="https://img.shields.io/badge/-TypeScript-007ACC.svg?logo=typescript&style=flat">
-<img src="https://img.shields.io/badge/-TailWindCSS-1572B6.svg?logo=css3&style=flat">
-<img src="https://img.shields.io/badge/-HTML-333.svg?logo=html5&style=flat">
-<img src="https://img.shields.io/badge/-React-555.svg?logo=react&style=flat">
-<img src="https://img.shields.io/badge/-Bootstrap-563D7C.svg?logo=bootstrap&style=flat">
-<img src="https://img.shields.io/badge/-Debian-A81D33.svg?logo=debian&style=flat">
-<img src="https://img.shields.io/badge/-Docker-EEE.svg?logo=docker&style=flat">
 </details>
 
 <details>
 <summary>so_long</summary>
-This is a 2D maze game.
+  
+> This is a 2D maze game.
+> 
+> Skills: C, MiniLibX
 <p align="center">
   <img src="./assets/so_long.gif" width="50%">
 </p>
-Skills: C, MiniLibX
 </details>
