@@ -1,31 +1,10 @@
-![welcome](./assets/welcome.gif)
-# 🎡CARNIVAL MAP🎠
-
-- [🎟 Entrance Gate](#-entrance-gate)
-- [🎪 Project Gallery](#-project-gallery)
-- [🎯 Skill Gallery](#-skill-gallery)
-- [🍿 Contact Booth](#-contact-booth)
-- [🎈 Visitors](#-visitors)
-
-# 🎟 Entrance Gate
-I'm Yuina Hirai.
+# Hi! I'm Yuina Hirai👋
 
 <p align="center">
   <img src="./assets/metrics/base.svg" width="45%">
   <img src="./assets/metrics/isocalendar.fullyear.svg" width="45%">
 </p>
 
-# 🎪 Project Gallery
-
-
-# 🎯 Skill Gallery
-![languages](./assets/metrics/languages.svg)
-
-
-# 🍿 Contact Booth
-<a href="mailto:yuina97102@gmail.com">
-  <img src="https://cdn-icons-png.flaticon.com/512/18154/18154191.png" width="40" alt="Email">
-</a>
-
-# 🎈 Visitors
-![followers](./assets/metrics/people.followers.svg)
+<p align="center">
+  <img src="./assets/metrics/languages.svg">
+</p>
