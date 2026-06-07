@@ -28,3 +28,10 @@
 [My Roblox Library](https://github.com/sakura100mochi/Roblox)
 
 [Defeat the Enemies! (A simple 2D action game)](https://github.com/sakura100mochi/pygame)
+
+<details>
+<summary>ft_transcendance</summary>
+<p align="center">
+  <img src="./assets/ft_transcendance.gif" width="50%">
+</p>
+</details>
