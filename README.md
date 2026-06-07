@@ -10,4 +10,6 @@
 </p>
 
 # Projects
+[ft_minecraft (Minecraft fan recreation project)](https://github.com/sakura100mochi/ft_minecraft)
+
 [Defeat the Enemies! (A simple 2D action game)](https://github.com/sakura100mochi/pygame)
