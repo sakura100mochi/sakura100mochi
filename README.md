@@ -12,7 +12,18 @@
 # Projects
 [ft_minecraft (Minecraft fan recreation project)](https://github.com/sakura100mochi/ft_minecraft)
 
-[Duck Adventure (Roblox)](https://github.com/sakura100mochi/Roblox_DuckAdventure)
+<details>
+  <summary>Duck Adventure (Roblox)🐥</summary>
+  
+<p align="center">
+  <a href="https://www.roblox.com/share?code=6b3c6e1e72791a468650afb9a176e2c7&type=ExperienceDetails&stamp=1780847018882">
+    🐥Game Link🐥
+  </a>
+</p>
+<p align="center">
+  <img src="./assets/DuckAdventure.gif" width="50%">
+</p>
+</details>
 
 [My Roblox Library](https://github.com/sakura100mochi/Roblox)
 
